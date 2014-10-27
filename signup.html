@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <title>Signup</title>
+	  <link rel="shortcut icon" href="images/favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+         <link href="style/style.css" type="text/css" rel="Stylesheet" />
+	  <meta charset="UTF-8" />
+	<script src = "js/jquery.js"></script>
+	<script src="js/signup.js"></script>
+   </head>
+   
+   <body>
+   <div id= "main">
+	<header>
+		<img id = "pitt" src="images/pitt.png" alt="pittlogo" height="75"/>
+		<div class="logo">
+			<img src="images/logo.png" height ="75" alt="LOGO">
+		</div>
+	</header>
+	<section>
+		<div class="clearfix">
+		<div id="contentsMain">
+				<div class="heading">
+					<h3>Sign up for your new account..</h3>
+				</div>
+			<form>
+						<div id = "invalid"></div><br>
+							<b>Choose the type of role you desire in the application:</b><br>
+							<input type="radio" name="role" value="Researcher">Researcher<br>
+							<input type="radio" name="role" value="Participant">Participant<br><br>
+						<b>Enter your First Name:</b><br>
+						<input type="text" name="fname" id="fname" required /><br><br>
+						<b>Enter your Last Name:</b><br>
+						<input type="text" name="lname" id="lname" required /><br><br>
+						<b>Enter your Email address:</b><br>
+						<input type="email" name="email" id="email" placeholder="someone@example.com" required /><br><br>
+						<b>Choose your password:</b><br>
+						<input type="password" name="password" id="pwd" required /><br><br>
+						<input class="subutton" type="button" id="signup" value="Create Account" />
+			</form>
+		</div>
+	</div>
+	</section>
+	<footer>
+			<p>Copyright &copy; 2014 Web Tech project group</p>
+   	</footer>
+	</div>
+   </body>
+</html>

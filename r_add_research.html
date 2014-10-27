@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+	  <title>Add a Research</title>
+	  <link rel="shortcut icon" href="images/favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+      <link href="style/style.css" type="text/css" rel="Stylesheet" />
+	<script src="js/jquery-2.1.0.js"></script>
+	<script src="js/add_researches.js"></script>
+	<script src="js/logout.js"></script>
+	  <meta charset="UTF-8" />
+   </head>
+   <body>
+   <div id ="main">
+   		<header>
+		<div class="header">
+			<img id = "pitt" src="images/pitt.png" alt="pittlogo" height="75"/>
+			<div class="logo">
+				<img src="images/logo.png" height ="75" alt="LOGO">
+			</div>
+	</div>
+	
+	</header>
+	
+	<div class = "clearfix">
+		<div id ="contentsMain">
+		
+		<div class = "Tab">
+			<a class="hyperlink" href="r_list_researches.html">My posted researches</a> |
+			<a class="hyperlink" href="r_add_research.html">Add new research</a>
+		</div>
+		<input class="logoutbutton" type="button" id="logout" value="Logout" />	<br>
+		
+		</div>		
+	</div>
+	
+	<section>
+	
+	<div class="clearfix">
+		<div id="radded">
+		</div>
+		<div id="formdata">
+			<article>
+				<div class="heading">
+					<h3>Add a new Research..</h3>
+				</div>
+			</article>
+			
+			<article>
+				<div id="rposted">
+				</div>
+				<form id="postr">
+					<table>
+						<tr>
+							<td><b>Name of the Research:</b></td>
+							<td><input type="text" class="formelement" name="rname" id="rname" placeholder="Reseach title.." required /></td>
+						</tr>
+						<tr>
+							<td><b>Contact Information:</b></td>
+							<td><input type="text" class="formelement" name="cinfo" id="cinfo" required /></td>
+						</tr>
+						<tr>
+							<td><b>Description:</b></td>
+							<td><textarea class="formelement" name="description" id="description" required ></textarea></td>
+						</tr>
+						<tr>
+							<td><b>Eligibility:</b></td>
+							<td><input type="text" class="formelement" name="eligibility" id="eligibility"/></td>
+						</tr>
+						<tr>
+							<td><b>From:</b></td>
+							<td><input type="date" name="fdate" class="formelement" id="fdate" placeholder="mm/dd/yyyy" required /></td>
+						</tr>
+						<tr>
+							<td><b>To:</b></td>
+							<td><input type="date" name="tdate" class="formelement" id="tdate" placeholder="mm/dd/yyyy" required /></td>
+						</tr>
+						<tr>
+							<td><b>Length of the experiment:</td>
+							<td>
+								<input type="text" name="length" class="formelement" id="length" placeholder="e.g. 2 hours, 2 days, 4 days" />
+							</td>
+						</tr>
+						<tr>
+							<td><b>Payment Mode:</b></td>
+							<td>
+								<input type="text" name="pay_mode" class="formelement" id="pay_mode" placeholder="e.g. Cash, Gift Card, Check" />
+							</td>
+						</tr>
+						<tr>
+							<td><b>Payment Amount:</b></td>
+							<td><input type="text" class="formelement" id="payamount" placeholder="Enter payment amount (if any or enter 0)" required /></td>
+						</tr>
+						<tr>
+							<td><b>Keywords:</b></td>
+							<td><textarea name="keyword" class="formelement" id="keyword" ></textarea></td>
+						</tr>
+						<tr>
+							<td><input class="subutton"  class="formelement" type="button" id="rcreate" value="Create Research" /></td>
+						</tr>
+						</ul>
+					</table>
+				</form>
+			</article>
+		</div>
+		</div>
+	</section>
+	<footer>
+	   	<div id="footer">
+				<p>Copyright &copy; 2014 Web Tech project group</p>
+        </div>
+   	</footer>
+	</div>
+   </body>
+</html>

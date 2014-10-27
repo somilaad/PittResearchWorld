@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+	  <title>Search for a study</title>
+          <link rel="shortcut icon" href="images/favicon.ico "/>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	  <!--CSS-->
+          <link href="style/style.css" type="text/css" rel="Stylesheet" />
+	  <meta charset="UTF-8" />
+	<script src="js/jquery-2.1.0.js"></script>
+	<script src="js/get_all_researches.js"></script>
+	<script src="js/searchdate_no_session.js"></script>
+   </head>
+
+
+   <body>
+   <div id="main">
+   	<header>
+		<img id = "pitt" src="images/pitt.png" alt="pittlogo" height="75"/>
+		<div class="logo">
+			<img src="images/logo.png" height ="75" alt="LOGO" />
+		</div>
+	</header>
+
+    <section>
+	<div id="contentsMain">
+        <div class="clearfix">
+		<div class="searchbox">
+			<span>By keywords: &nbsp;</span><input type="text" name="skeywords" id="skeywords" placeholder="Type to search.." />
+			<span>Start date:</span><input type="date" id="startdate"/>
+			<span>End date:</span><input type ="date" id="enddate"/>
+			<input class="subutton" type="button" name="searchbtn" id="searchdate" value="Search by date" />
+		</div>
+		<div id="slist">
+		</div>
+		<div id="all_researches">
+			<div id="list">
+			</div>
+		</div>
+	</div>
+	</div>
+	</section>
+	<footer>
+	   	<div id="footer">
+			<p>Copyright &copy; 2014 Web Tech project group</p>
+        </div>
+   	</footer>
+	</div>
+   </body>
+</html>

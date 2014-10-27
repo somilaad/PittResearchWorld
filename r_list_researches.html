@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+   <head>
+	  <title>List of my researches</title>
+	  <link rel="shortcut icon" href="images/favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	  <!--CSS-->
+      <link href="style/style.css" type="text/css" rel="Stylesheet" />
+	  <meta charset="UTF-8" />
+	<script src="js/jquery-2.1.0.js"></script>
+	<script src="js/get_research_list.js"></script>
+	<script src="js/logout.js"></script>
+   </head>
+   <body>
+   <div id="main">
+   	<header>
+		<img id = "pitt" src="images/pitt.png" alt="pittlogo" height="75"/>
+		<div class="logo">
+			<img src="images/logo.png" height ="75" alt="LOGO">
+		</div>
+	</header>
+	
+	<div class = "clearfix">
+		<div id ="contentsMain">
+			<div class = "Tab">
+					<a class="hyperlink" href="r_list_researches.html">My Posted Reseaches</a> |
+			<a class="hyperlink" href="r_add_research.html">Add new research</a>
+			</div>
+			<form>
+				<input class="logoutbutton" type="button" id="logout" value="Logout" />	<br>
+			</form>
+		</div>		
+	</div>
+	
+    <section>		
+        <div class="clearfix">
+		<table id="list" border="1"></table>
+		<ol id="participants"></ol>
+		<div id="vieworedit"></div>
+		<div id="inserttext"></div>
+		<div id="success"></div>
+	</div>
+	</section>
+	<footer>
+	   	<div id="footer">
+			<p>Copyright &copy; 2014 Web Tech project group</p>
+        </div>
+   	</footer>
+	</div>
+   </body>
+</html>

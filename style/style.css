@@ -1,0 +1,250 @@
+body
+{
+	background-color: #e6e6fa;
+	min-width: 950px;
+	font-size: 15px;
+    	font-family: 'Roboto', 'sans-serif';
+	margin: 0;
+	color: #000;
+	text-align: justify;
+}
+
+#main 
+{
+	position: relative;
+	min-height:100%;
+}
+	
+.clearfix
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clearfix:after
+{
+	clear:both;
+	display:block;
+	line-height:0;
+	height:1%;
+	visibility:hidden;
+}
+
+a:link
+{
+    color: #F00;
+}
+
+a:visited
+{
+    color: #000;
+}
+
+a:hover
+{
+    font-weight: bold;
+    color: #4747FF;
+}
+
+a:active
+{
+    color: #339900;
+    font-weight: bold;
+}
+
+/* Start of Header */
+header
+ {
+	position: fixed;
+	width: 100%;
+	background-color: #747486;
+	padding: 4px 0 6px;
+}
+
+
+
+#logomain {
+	margin-left: 5%;
+	display: inline-block;
+}
+
+#log{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#pitt {
+	float: left;
+	margin-left: 100px;
+}
+/* End of Header */
+
+/* Start of Contents */
+#contents
+ {
+	padding-bottom: 24px;
+}
+
+#contentsMain 
+{
+	padding-top: 100px;
+	padding-bottom: 24px;
+}
+
+.Tab
+ {
+display: inline-block;
+}
+
+/* End of Contents */
+
+/* Start of Login page */
+
+.subutton
+{
+	background-color: #CC9999;
+	color: #006666;
+	font-weight: bold;
+}
+
+.logoutbutton
+{
+	background-color: #CC9999;
+	color: #006666;
+	font-weight: bold;
+	float:right;
+}
+
+.subutton:hover
+{
+	color: #CC9999;
+	background-color: #006666;
+	cursor: pointer;
+}
+
+.logoutbutton:hover
+{
+	color: #CC9999;
+	background-color: #006666;
+	cursor: pointer;
+}
+/* End of Login page */
+
+.heading
+{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #003b64;
+}
+
+/* Start of Footer */
+footer
+{
+	padding: 6px 0 3px;
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+}
+
+footer p {
+
+	font: 11px Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding-right: 10px;
+	text-align: right;
+	text-transform: uppercase;
+}
+/* End of Footer */
+
+/*researcher*/
+.clr {
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+
+#div1{
+position: fixed;
+    right: 0px;
+    top: 104px;
+	font-size:20px;
+}
+
+.formelement {
+	width: 250px;
+	}
+
+.contact {
+	border:2px solid #a1a1a1;
+    	border-radius: 25px;
+    	background: rgba(138,152,165,0.5);
+    	width: 400px;
+    	margin-left: 30%;
+	margin-top: 10%;
+}
+input[type='submit'] {
+    cursor: pointer;
+}
+#contactform {
+	padding: 20px 35px;
+}
+#emailsent {
+	display: inline;
+}
+
+.searchbox {
+	font-size: 15px;
+	border:2px solid #a1a1a1;
+    	border-radius: 25px;
+    	background: rgba(102,153,204,0.5);
+    	width: 960px;
+	padding: 15px 10px;
+}
+.updatebutton {
+	width: 150px;
+	cursor: pointer;
+}
+
+/* Dibya */
+table {
+	border-collapse: collapse;
+	border-color: #FF6633;
+	margin-top: 50px;
+}
+
+th {
+	background-color: #A7C942;
+	color: white;
+}
+
+table, th, td {
+	padding: 5px;
+}
+
+table tr.alt td {
+	color:#000;
+	background-color:#EAF2D3;
+}
+
+input[type='button'] {
+    cursor: pointer;
+    background-color: #DBFF70;
+}
+
+#clickall {
+	color: blue;
+}
+
+#invalid {
+	float: right;
+	color: red;
+	text-decoration: underline;
+}
+/* Dibya */
+
+/*end*/
